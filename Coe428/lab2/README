@@ -1,0 +1,17 @@
+Question: Suppose towers(5,2,3) is invoked
+
+1. The first recursive call: towers(4, 2, 1)
+
+2. There will be 5 recursive calls before the first recursive call returns to the initial invocation.
+
+3. Once towers(5, 2, 3) invokes the first recursive call to towers() and the invocation returned, then (2 3) will be printed to stdout. Or from tower 2 to tower 3.
+
+4. The second recursive call to towers() will be invoked: towers(0,1,3)
+
+Question: Suppose that towers(8,1,2) is invoked. How many lines will be printed out by stdout.
+
+There will be 255 lines printed out.
+
+Summary:
+
+In this lab I was sucessfully able to navigate the tutorials about recursion for this lab and solve the questions about the towers of Hanoi for the README file. As for the second requirement I was sucessfully able to modify the main function to fix the bugs. The function now takes in arguments from the command line and sucessfully abides by the requirements in the description by outputing the needed tower movements to the terminal. Everything worked well.

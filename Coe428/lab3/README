@@ -1,0 +1,23 @@
+1. Summary:
+This lab worked correctly for the sorting algorithms for MergeSort and Insertion Sort.
+2. Analysis:
+
+Insertion Sort Analysis:
+
+For input: 1, 2, 3, 4, 5
+Best Case: “1,2,3,4,5” results in 4 Comparisons, 0 Swaps and 5 Copy Operations. The time complexity is Omega(n) for the best case of sorting. The worst case when I type in “5,4,3,2,1” results in 10 Comparisons, 10 Swaps and 5 Copy Operations. The time complexity is O(n^2) for the worst case of sorting. The average case when I type in “3,2,1,5,4” results in 6 Comparisons, 4 Swaps and 5 Copy Operations. 
+
+From the InsertionSort Analysis
+Best Case - O(n) , n comparisons , 0 swaps , 0 copys
+Average Case - O(n^2), (n(n-1)/2) comparisons ,(n(n-1)/2) swaps , (n-1) copys
+Worst Case - O(n^2) ,(n(n-1)/2) comparisons ,(n(n-1)/2) swaps , (n-1) copys
+
+Merge Sort Analysis:
+
+Best case: “1,2,3,4,5” results in 7 Comparisons, 12 Swaps and 5 Copy Operations. The worst case when I type in “5,4,3,2,1” results in 5 Comparisons, 12 Swaps and 7 Copy Operations. The average case when I type in “3,2,4,1,5” results in 8 Comparisons, 12 Swaps and 4 Copy Operations.
+
+Best Case - O(nlogn) ,
+Average Case - O(nlogn) ,
+Worst Case - O(nlogn), (nlgn - n +1) comparisons
+
+

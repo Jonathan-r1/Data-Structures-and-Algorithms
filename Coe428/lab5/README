@@ -1,0 +1,11 @@
+ SUMMARY: The code works as per the requirements of this lab, I am able to get the desired outputs like in the example shown in the lab manual.           
+
+In your README file, you need to answer the following question:
+Another legal XML tag not used in this lab is the "stand-alone" tag. This kind of
+tag combines both a start-tag and end-tag in one. It is identified with a '/'
+(slash) preceding the final >. (For example, the <foo/> is a stand-alone tag
+that is "self balancing".
+Describe briefly how you would modify Requirement 1 to allow this kind of tag. 
+
+ANSWER:
+I would modify the logic surrounding intaking tags, to look for the '>' char and if the char before it was the '/' I would add it to the hashtable. I would not even bother putting it in the stack, there is no point because since it has to end tag. This would be done by checking for this case when the user inputs it as a value.
